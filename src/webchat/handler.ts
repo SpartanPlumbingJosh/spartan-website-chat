@@ -1,7 +1,5 @@
 import { Router, Request, Response } from 'express';
 import Anthropic from '@anthropic-ai/sdk';
-import { ServiceTitanClient } from '../servicetitan/client';
-import { BookingService } from '../booking/booking-service';
 
 const router = Router();
 
